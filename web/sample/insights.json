@@ -1,0 +1,116 @@
+{
+ "generated_at": "2026-11-04T15:30:00-05:00",
+ "n_sessions": {
+  "walking": 99,
+  "pilates": 50,
+  "padel": 4,
+  "class": 73
+ },
+ "metric": "minutes above 125 bpm per 30 min",
+ "insights": [
+  {
+   "id": "sleep",
+   "title": "Short sleep",
+   "finding": "After nights under 6 h, walks ran about 3.5× harder.",
+   "activity": "walking",
+   "a": {
+    "label": "< 6 h sleep",
+    "value": 15.9,
+    "n": 15
+   },
+   "b": {
+    "label": "7 h +",
+    "value": 4.1,
+    "n": 44
+   },
+   "confidence": "high"
+  },
+  {
+   "id": "hrv",
+   "title": "Low HRV",
+   "finding": "On days your HRV was 15% or more below usual, walks ran more than 4× harder.",
+   "activity": "walking",
+   "a": {
+    "label": "HRV 15%+ below usual",
+    "value": 18.4,
+    "n": 24
+   },
+   "b": {
+    "label": "HRV near or above usual",
+    "value": 3.3,
+    "n": 58
+   },
+   "confidence": "high"
+  },
+  {
+   "id": "readiness",
+   "title": "Lower readiness",
+   "finding": "With readiness under 70, Solidcore ran about 3× harder.",
+   "activity": "pilates",
+   "a": {
+    "label": "Readiness < 70",
+    "value": 10.9,
+    "n": 18
+   },
+   "b": {
+    "label": "Readiness 80 +",
+    "value": 3.6,
+    "n": 12
+   },
+   "confidence": "medium"
+  },
+  {
+   "id": "time_of_day",
+   "title": "Time of day",
+   "finding": "Your morning walks ran a bit harder than late-day ones.",
+   "activity": "walking",
+   "a": {
+    "label": "Before 11 am",
+    "value": 9.6,
+    "n": 24
+   },
+   "b": {
+    "label": "4 pm or later",
+    "value": 7.6,
+    "n": 52
+   },
+   "confidence": "high"
+  },
+  {
+   "id": "activity_compare",
+   "title": "Walks vs Solidcore",
+   "finding": "Solidcore and walks have kept your heart rate up about equally.",
+   "activity": "all",
+   "a": {
+    "label": "Solidcore",
+    "value": 7.6,
+    "n": 50
+   },
+   "b": {
+    "label": "Walks",
+    "value": 7.9,
+    "n": 99
+   },
+   "confidence": "high"
+  },
+  {
+   "id": "recovery_trend",
+   "title": "Recovery after sessions",
+   "finding": "How quickly your heart rate settles after sessions has stayed about the same (around 46 bpm drop in ~10 min).",
+   "activity": "all",
+   "a": {
+    "label": "Last 8 weeks",
+    "value": 46.2,
+    "n": 47
+   },
+   "b": {
+    "label": "8 weeks before",
+    "value": 45.0,
+    "n": 51
+   },
+   "confidence": "high",
+   "unit": "bpm drop ~10 min after"
+  }
+ ],
+ "caveat": "Patterns in your own history, not medical advice."
+}

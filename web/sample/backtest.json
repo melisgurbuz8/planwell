@@ -1,0 +1,1680 @@
+{
+ "generated_at": "2026-11-04T15:30:00-05:00",
+ "n_sessions": 198,
+ "n_skipped": 28,
+ "method": "Each session judged only with data from before it.",
+ "hard_definition": "Walks ≥ 13.7; Solidcore ≥ 12; Padel ≥ 18.5; Classes ≥ 3 min above 125 bpm per 30 min (your top 25% for each)",
+ "hard_cutoffs": {
+  "walking": 13.7,
+  "pilates": 12.0,
+  "padel": 18.5,
+  "class": 3.0
+ },
+ "planwell": {
+  "tp": 30,
+  "fp": 33,
+  "fn": 15,
+  "tn": 120,
+  "precision": 0.48,
+  "recall": 0.67,
+  "flag_rate": 0.32
+ },
+ "baseline": {
+  "name": "Readiness under 70 only",
+  "tp": 35,
+  "fp": 40,
+  "fn": 10,
+  "tn": 113,
+  "precision": 0.47,
+  "recall": 0.78,
+  "flag_rate": 0.38
+ },
+ "by_verdict": [
+  {
+   "verdict": "green",
+   "n": 135,
+   "avg_minutes": 3.2,
+   "pct_hard": 0.11
+  },
+  {
+   "verdict": "yellow",
+   "n": 33,
+   "avg_minutes": 6.8,
+   "pct_hard": 0.3
+  },
+  {
+   "verdict": "red",
+   "n": 30,
+   "avg_minutes": 13.5,
+   "pct_hard": 0.67
+  }
+ ],
+ "by_activity": {
+  "walking": {
+   "n": 91,
+   "tp": 19,
+   "fp": 22,
+   "fn": 4,
+   "tn": 46,
+   "precision": 0.46,
+   "recall": 0.83,
+   "flag_rate": 0.45
+  },
+  "pilates": {
+   "n": 42,
+   "tp": 4,
+   "fp": 1,
+   "fn": 8,
+   "tn": 29,
+   "precision": 0.8,
+   "recall": 0.33,
+   "flag_rate": 0.12
+  },
+  "padel": {
+   "n": 0,
+   "tp": 0,
+   "fp": 0,
+   "fn": 0,
+   "tn": 0,
+   "precision": 0,
+   "recall": 0,
+   "flag_rate": 0
+  },
+  "class": {
+   "n": 65,
+   "tp": 7,
+   "fp": 10,
+   "fn": 3,
+   "tn": 45,
+   "precision": 0.41,
+   "recall": 0.7,
+   "flag_rate": 0.26
+  }
+ },
+ "timeline": [
+  {
+   "workout_id": "b59618f0-1556-c36c-1ae1-6ab1b13010cd",
+   "date": "2026-05-19",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": false
+  },
+  {
+   "workout_id": "43fb53ae-727b-dbb7-9900-8cc6201d6ca2",
+   "date": "2026-05-20",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 26.0,
+   "hard": true
+  },
+  {
+   "workout_id": "bd2db7fe-408a-5775-5dc9-8c1339bb59b8",
+   "date": "2026-05-22",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 3.0,
+   "hard": false
+  },
+  {
+   "workout_id": "936411d1-4eb6-5185-5529-f1d5f21ad9dc",
+   "date": "2026-05-25",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 23.0,
+   "hard": true
+  },
+  {
+   "workout_id": "d0b67947-0e87-5657-1370-a9692695aefd",
+   "date": "2026-05-26",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 27.0,
+   "hard": true
+  },
+  {
+   "workout_id": "f89a35da-8d8d-8c94-a753-2aa6a9d092ff",
+   "date": "2026-05-31",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 26.4,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202606010930-class",
+   "date": "2026-06-01",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3a281e0e-edeb-58b6-7ad9-45296ea76967",
+   "date": "2026-06-01",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 2.5,
+   "hard": false
+  },
+  {
+   "workout_id": "9c149131-ec81-269f-8b6d-510f06ba24ef",
+   "date": "2026-06-02",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 19.7,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202606030930-class",
+   "date": "2026-06-03",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606041300-class",
+   "date": "2026-06-04",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "f3c17388-77bc-4951-461e-ad56665ee0b4",
+   "date": "2026-06-04",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "62037590-c00a-a19f-dcdc-3f2ad6f663c1",
+   "date": "2026-06-06",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3945d628-73da-9623-3c94-fa807513a408",
+   "date": "2026-06-07",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 4.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606080930-class",
+   "date": "2026-06-08",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606100930-class",
+   "date": "2026-06-10",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "b1372f90-804d-8216-21cd-08ef0c383880",
+   "date": "2026-06-10",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 1.2,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606111300-class",
+   "date": "2026-06-11",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3e655d1f-c55f-c0c3-0310-95c6ee680d85",
+   "date": "2026-06-12",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 6.0,
+   "hard": false
+  },
+  {
+   "workout_id": "a3e92091-4254-260d-46e2-66cfefbdc0fc",
+   "date": "2026-06-13",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 9.6,
+   "hard": false
+  },
+  {
+   "workout_id": "0e04eee7-43a7-1f30-0851-ec2da1fa217f",
+   "date": "2026-06-15",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 5.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606150930-class",
+   "date": "2026-06-15",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 1.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3382e113-3a31-37ac-cfce-1acbd67b560d",
+   "date": "2026-06-16",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.2,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606170930-class",
+   "date": "2026-06-17",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "d7e8a1dd-a868-3241-2692-7c341d3eb119",
+   "date": "2026-06-17",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606181300-class",
+   "date": "2026-06-18",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "3ee6530d-15ce-7bc5-5899-5c1fe9676776",
+   "date": "2026-06-21",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606220930-class",
+   "date": "2026-06-22",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "29077e30-cc1d-dd69-e009-4c3d255c6afc",
+   "date": "2026-06-22",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "011f809d-20b8-7dbf-3ada-d4d37b56ede4",
+   "date": "2026-06-23",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 3.3,
+   "hard": false
+  },
+  {
+   "workout_id": "60874022-c7c0-bee6-79ec-264005ff551f",
+   "date": "2026-06-23",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606240930-class",
+   "date": "2026-06-24",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "6b496fd4-c42e-05da-a883-1aa5dab6c2bc",
+   "date": "2026-06-24",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606251300-class",
+   "date": "2026-06-25",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "4fcef3a8-f31d-02da-d1a1-8e71aacc2294",
+   "date": "2026-06-25",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 4.0,
+   "hard": false
+  },
+  {
+   "workout_id": "38804646-3f73-f46f-8d7f-d6a9cef76e79",
+   "date": "2026-06-26",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 11.3,
+   "hard": false
+  },
+  {
+   "workout_id": "c956d94d-dac7-c69f-e688-d974dea6b1bc",
+   "date": "2026-06-27",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "24923c87-917e-c75a-283d-114e3521bc26",
+   "date": "2026-06-28",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202606290930-class",
+   "date": "2026-06-29",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "26aa9130-6c5f-39db-535c-8aff0e11674e",
+   "date": "2026-06-30",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 30.0,
+   "hard": true
+  },
+  {
+   "workout_id": "c62e5a72-59e1-9dd6-a0d4-6af4d4261846",
+   "date": "2026-06-30",
+   "activity": "pilates",
+   "verdict": "red",
+   "minutes_per_30": 12.5,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202607010930-class",
+   "date": "2026-07-01",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "a73fc906-1f1f-d3e9-2bf2-5217f03f8024",
+   "date": "2026-07-02",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 6.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607021300-class",
+   "date": "2026-07-02",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 1.7,
+   "hard": false
+  },
+  {
+   "workout_id": "b995bc52-8d66-5411-dc2e-ba6aa131918b",
+   "date": "2026-07-03",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.1,
+   "hard": false
+  },
+  {
+   "workout_id": "074dbe69-8e12-f135-6f65-d5c7526713b7",
+   "date": "2026-07-05",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607060930-class",
+   "date": "2026-07-06",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "64482b0e-2ea6-4e23-7e01-359e50f5a603",
+   "date": "2026-07-07",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 2.7,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607080930-class",
+   "date": "2026-07-08",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "00ea5000-fdcc-22ce-fff3-2d78e36691bf",
+   "date": "2026-07-08",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607091300-class",
+   "date": "2026-07-09",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "6f60ad13-a2f6-3d84-bb5b-5e3a70b55307",
+   "date": "2026-07-09",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3581da22-a9b7-16c0-133c-a818db587318",
+   "date": "2026-07-10",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "16f59adb-6ae5-459d-c346-d55bd188e453",
+   "date": "2026-07-11",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 22.5,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202607130930-class",
+   "date": "2026-07-13",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "5e3b9cba-12fb-e5f6-6b4b-964c33e72a7c",
+   "date": "2026-07-14",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "e7f31c7b-b857-348f-85e6-762c7d6c3753",
+   "date": "2026-07-14",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 10.8,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607150930-class",
+   "date": "2026-07-15",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 1.3,
+   "hard": false
+  },
+  {
+   "workout_id": "42a7da8b-41bb-58da-7b41-fca3c4962464",
+   "date": "2026-07-15",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 25.8,
+   "hard": true
+  },
+  {
+   "workout_id": "da18a09e-0786-e9eb-8d05-c4e788daaef0",
+   "date": "2026-07-16",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 16.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202607161300-class",
+   "date": "2026-07-16",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 1.0,
+   "hard": false
+  },
+  {
+   "workout_id": "4d842533-2e45-a1c7-6be5-33b8283c2e40",
+   "date": "2026-07-17",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "590dd590-eebb-37a1-0fbd-06fb5c6ce210",
+   "date": "2026-07-18",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 27.0,
+   "hard": true
+  },
+  {
+   "workout_id": "a0075036-3ff0-9fab-648b-f9193df2efae",
+   "date": "2026-07-19",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 3.4,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607200930-class",
+   "date": "2026-07-20",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 3.3,
+   "hard": true
+  },
+  {
+   "workout_id": "69fa7e81-5d47-512c-9cc0-02ed40cccd69",
+   "date": "2026-07-20",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 26.0,
+   "hard": true
+  },
+  {
+   "workout_id": "8922f8f0-04a5-2b94-6a9e-48815fcca4a8",
+   "date": "2026-07-20",
+   "activity": "pilates",
+   "verdict": "red",
+   "minutes_per_30": 12.5,
+   "hard": true
+  },
+  {
+   "workout_id": "0d9797fe-033c-94f4-babb-486ab2d3389b",
+   "date": "2026-07-21",
+   "activity": "pilates",
+   "verdict": "red",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "50b18715-18a8-9ff0-516c-2f4968771c11",
+   "date": "2026-07-22",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 15.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202607220930-class",
+   "date": "2026-07-22",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 1.7,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607231300-class",
+   "date": "2026-07-23",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 4.3,
+   "hard": true
+  },
+  {
+   "workout_id": "7ada35bb-a103-2932-7a7d-2c685f404833",
+   "date": "2026-07-23",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 3.6,
+   "hard": false
+  },
+  {
+   "workout_id": "2e7b4834-9424-7ec9-ed48-30ccebd5dc5b",
+   "date": "2026-07-24",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "21214f4c-c6ea-f457-2418-ed00d6a1f0f2",
+   "date": "2026-07-24",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 5.3,
+   "hard": false
+  },
+  {
+   "workout_id": "6193bd41-86f5-054e-e4fe-304efba8a4a9",
+   "date": "2026-07-26",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 27.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202607270930-class",
+   "date": "2026-07-27",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 4.0,
+   "hard": true
+  },
+  {
+   "workout_id": "9a6bd0d0-b35e-f2b2-bf3d-3b98565660ba",
+   "date": "2026-07-27",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 24.0,
+   "hard": true
+  },
+  {
+   "workout_id": "d1b4633a-d1d9-00ad-7c31-60079af5b4c8",
+   "date": "2026-07-28",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "95a4aecc-f319-159e-3f8e-696462b3ef11",
+   "date": "2026-07-28",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 12.9,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607290930-class",
+   "date": "2026-07-29",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 2.3,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202607301300-class",
+   "date": "2026-07-30",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "ce7e349e-755d-2124-ff08-5cdd06ddbfbc",
+   "date": "2026-07-31",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 11.5,
+   "hard": false
+  },
+  {
+   "workout_id": "57fe96c3-d747-d075-d82b-b4815ee4e77a",
+   "date": "2026-08-02",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "89510abc-27cb-b61f-dabb-9acb1d567f2f",
+   "date": "2026-08-03",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 4.0,
+   "hard": false
+  },
+  {
+   "workout_id": "296cc228-cd0a-8f6d-71d7-3214fc4ba917",
+   "date": "2026-08-04",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "47bffaa8-0dc9-2565-66a5-d7c745232631",
+   "date": "2026-08-04",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.1,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608050930-class",
+   "date": "2026-08-05",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "06a6d890-a0d0-fb08-159d-f62027a17d33",
+   "date": "2026-08-05",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608061300-class",
+   "date": "2026-08-06",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "9f93575c-9b6f-fcf7-e2c9-7c6a90c7ac29",
+   "date": "2026-08-06",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.9,
+   "hard": false
+  },
+  {
+   "workout_id": "615ee734-cf1d-bd7e-9db6-23c626e1a68f",
+   "date": "2026-08-07",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.1,
+   "hard": false
+  },
+  {
+   "workout_id": "4e6a25f0-8d5f-543a-8da6-fec51f72e5b2",
+   "date": "2026-08-08",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "57620af0-e77d-5b74-0c76-8acdc18d6c33",
+   "date": "2026-08-09",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 4.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608100930-class",
+   "date": "2026-08-10",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "9f46dffe-aef0-a997-bec2-618031af91d3",
+   "date": "2026-08-11",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "a44af98e-3193-1ce7-2f02-821e5bacdf75",
+   "date": "2026-08-11",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.2,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608120930-class",
+   "date": "2026-08-12",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 3.3,
+   "hard": true
+  },
+  {
+   "workout_id": "08a4130c-fb60-9dec-daf7-df27841ea01a",
+   "date": "2026-08-13",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 30.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202608131300-class",
+   "date": "2026-08-13",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 3.7,
+   "hard": true
+  },
+  {
+   "workout_id": "962c2a25-5a3a-60ae-9f76-12954cf03fce",
+   "date": "2026-08-14",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 20.4,
+   "hard": true
+  },
+  {
+   "workout_id": "ac11804e-653c-6460-1ad4-672237926df1",
+   "date": "2026-08-14",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "e43cd056-5d1f-7254-2f91-0e2a4b3e97ba",
+   "date": "2026-08-15",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 6.7,
+   "hard": false
+  },
+  {
+   "workout_id": "8bf329d8-7d44-0385-a3cd-bf896f95ccdd",
+   "date": "2026-08-15",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "569224d7-4258-552c-fd7e-ce2d1c60598c",
+   "date": "2026-08-16",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 1.7,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608170930-class",
+   "date": "2026-08-17",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 3.7,
+   "hard": true
+  },
+  {
+   "workout_id": "41a539f5-472b-c5a4-f6b6-dd047333f416",
+   "date": "2026-08-17",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 25.0,
+   "hard": true
+  },
+  {
+   "workout_id": "68dd41b3-aae1-11dd-4364-c2f1e753878d",
+   "date": "2026-08-18",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.5,
+   "hard": true
+  },
+  {
+   "workout_id": "cc8bd072-d974-ad6e-d085-87847b99a895",
+   "date": "2026-08-18",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 20.2,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202608190930-class",
+   "date": "2026-08-19",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 2.7,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608201300-class",
+   "date": "2026-08-20",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 2.3,
+   "hard": false
+  },
+  {
+   "workout_id": "e5b5b96c-8129-8df1-fd6b-d9f77cc1a36a",
+   "date": "2026-08-21",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 10.9,
+   "hard": false
+  },
+  {
+   "workout_id": "f540e1d4-a505-d2d1-a2c2-3f4076855198",
+   "date": "2026-08-21",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "e3203efa-d037-6e5f-0833-c5d9f3b06515",
+   "date": "2026-08-22",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608240930-class",
+   "date": "2026-08-24",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cfe14b20-246a-bae9-7890-ed6f645225a4",
+   "date": "2026-08-25",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 5.0,
+   "hard": false
+  },
+  {
+   "workout_id": "b229d0ad-50b8-c1f6-27e2-9499bb771850",
+   "date": "2026-08-25",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 11.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608260930-class",
+   "date": "2026-08-26",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "bf552e1f-c4e9-fdbe-9b6e-a33669a453ff",
+   "date": "2026-08-26",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 14.6,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202608271300-class",
+   "date": "2026-08-27",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 2.7,
+   "hard": false
+  },
+  {
+   "workout_id": "4aec690c-73d3-87c0-e7e5-72008558fcfe",
+   "date": "2026-08-27",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 28.5,
+   "hard": true
+  },
+  {
+   "workout_id": "564acabc-482f-d1c7-6915-10fc299445f4",
+   "date": "2026-08-28",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 11.3,
+   "hard": false
+  },
+  {
+   "workout_id": "a62c3f8d-b440-d925-4be1-d453da0af223",
+   "date": "2026-08-29",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202608310930-class",
+   "date": "2026-08-31",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 5.7,
+   "hard": true
+  },
+  {
+   "workout_id": "c0c3eb20-f9bb-bef6-9d96-29191b5bb8b8",
+   "date": "2026-09-01",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202609020930-class",
+   "date": "2026-09-02",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "b30bf97e-00c8-59ed-22f9-3f5c67345a65",
+   "date": "2026-09-03",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 25.5,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202609031300-class",
+   "date": "2026-09-03",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 5.7,
+   "hard": true
+  },
+  {
+   "workout_id": "7174108a-9238-a88d-7e4a-d4edaf806b73",
+   "date": "2026-09-04",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.8,
+   "hard": false
+  },
+  {
+   "workout_id": "7ac9adec-7b33-c9a4-f2c8-f54c40c39877",
+   "date": "2026-09-05",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "a5ea460b-25c5-d877-8557-750c0082cf50",
+   "date": "2026-09-06",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 2.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609070930-class",
+   "date": "2026-09-07",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "6858fd75-4773-a6ed-ac30-dd0b53d410f7",
+   "date": "2026-09-08",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609090930-class",
+   "date": "2026-09-09",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609101300-class",
+   "date": "2026-09-10",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "20e246e2-77f4-6c9d-16fd-9ffd1ee3b124",
+   "date": "2026-09-10",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "65236c21-2b63-787f-e7cd-d163d798f694",
+   "date": "2026-09-11",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 2.7,
+   "hard": false
+  },
+  {
+   "workout_id": "2bbca4d2-0a9b-5d11-41eb-5f48ff8ebf8c",
+   "date": "2026-09-13",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609140930-class",
+   "date": "2026-09-14",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "64836078-d979-25fe-aa45-c571f12a4a84",
+   "date": "2026-09-15",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202609160930-class",
+   "date": "2026-09-16",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "29d8f1db-ccdc-1cc9-ce20-7387fdd40a01",
+   "date": "2026-09-16",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 2.6,
+   "hard": false
+  },
+  {
+   "workout_id": "a7ef914f-84a1-58db-e380-492c0e09f074",
+   "date": "2026-09-17",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 10.8,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609171300-class",
+   "date": "2026-09-17",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "04e96c3d-bbe9-2021-ee4e-7ae6a39d1ed8",
+   "date": "2026-09-18",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 7.2,
+   "hard": false
+  },
+  {
+   "workout_id": "114752cc-2e54-1f9b-5786-b9a201b35d10",
+   "date": "2026-09-18",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "f583084a-47dc-5459-da37-3ed703aa3e51",
+   "date": "2026-09-19",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 4.0,
+   "hard": false
+  },
+  {
+   "workout_id": "76c1dd5f-1f13-3a16-574e-90582a904402",
+   "date": "2026-09-20",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "fcd3fba3-954f-8d4e-5b45-c58f7317a745",
+   "date": "2026-09-21",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 7.5,
+   "hard": false
+  },
+  {
+   "workout_id": "39fb789f-f442-4eb1-9a33-87c3584528b9",
+   "date": "2026-09-22",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202609230930-class",
+   "date": "2026-09-23",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "b200a07c-a05f-5f24-c4cd-c067695b671a",
+   "date": "2026-09-23",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 5.2,
+   "hard": false
+  },
+  {
+   "workout_id": "feb5e777-e6aa-9f2f-26f7-8d6dca2b5b8e",
+   "date": "2026-09-24",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609241300-class",
+   "date": "2026-09-24",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "ae0f0686-afa2-6245-dabd-020273794cb4",
+   "date": "2026-09-25",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "72fa1e5c-efff-3240-56be-cb947bc1f9ea",
+   "date": "2026-09-27",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202609280930-class",
+   "date": "2026-09-28",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "6340b838-b1c6-6d13-f94c-56c595128597",
+   "date": "2026-09-29",
+   "activity": "pilates",
+   "verdict": "yellow",
+   "minutes_per_30": 12.5,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202609300930-class",
+   "date": "2026-09-30",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 1.3,
+   "hard": false
+  },
+  {
+   "workout_id": "9e961c1e-6cdf-206c-3e6a-d7f2b6296e51",
+   "date": "2026-09-30",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 20.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202610011300-class",
+   "date": "2026-10-01",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "8d242f2e-e894-ec58-ee0d-78abf83f359d",
+   "date": "2026-10-02",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 4.2,
+   "hard": false
+  },
+  {
+   "workout_id": "124668f9-7a07-68fb-fea8-2c264e172928",
+   "date": "2026-10-03",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610050930-class",
+   "date": "2026-10-05",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "b02b4547-faad-58d2-b8d6-eab0cd24065b",
+   "date": "2026-10-06",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.8,
+   "hard": false
+  },
+  {
+   "workout_id": "54902146-7289-c10a-a5d3-8817e6218f15",
+   "date": "2026-10-06",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610070930-class",
+   "date": "2026-10-07",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 2.7,
+   "hard": false
+  },
+  {
+   "workout_id": "ca70fe07-4923-0bd6-e9d9-7e977c5b849e",
+   "date": "2026-10-08",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "8af80475-bda6-fd8e-8a24-d5aa24f28234",
+   "date": "2026-10-09",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 9.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cf0aabdb-59db-19bd-97fe-3895fc927602",
+   "date": "2026-10-10",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "d9ddab00-1230-0f1c-0ffe-516da1101c76",
+   "date": "2026-10-11",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610120930-class",
+   "date": "2026-10-12",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "4a784dcf-5c6e-0685-6021-e2603dc92220",
+   "date": "2026-10-12",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "3312e597-43bf-06e8-8d10-a586a5a8288b",
+   "date": "2026-10-13",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "db4ee103-4e13-88db-77be-5a1b7ee30167",
+   "date": "2026-10-13",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610140930-class",
+   "date": "2026-10-14",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 0.7,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610151300-class",
+   "date": "2026-10-15",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 4.3,
+   "hard": true
+  },
+  {
+   "workout_id": "1c836cf0-20d5-51f4-9201-e2e4428d4575",
+   "date": "2026-10-16",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 11.4,
+   "hard": false
+  },
+  {
+   "workout_id": "4c7bebe4-ce52-c9e9-c841-4b9c2954181c",
+   "date": "2026-10-17",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 18.6,
+   "hard": true
+  },
+  {
+   "workout_id": "89d0ecdd-bc98-9d36-59b4-de5d008387d9",
+   "date": "2026-10-18",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610190930-class",
+   "date": "2026-10-19",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "34a6492f-c489-0c4a-3d5f-1c64e16f5062",
+   "date": "2026-10-20",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 10.9,
+   "hard": false
+  },
+  {
+   "workout_id": "9179552a-2811-3474-efb9-54636e2ab6ca",
+   "date": "2026-10-20",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610210930-class",
+   "date": "2026-10-21",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 2.0,
+   "hard": false
+  },
+  {
+   "workout_id": "c5e6e917-dc16-338e-d6f7-1590727cff3d",
+   "date": "2026-10-21",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 12.0,
+   "hard": true
+  },
+  {
+   "workout_id": "cal-hist-202610221300-class",
+   "date": "2026-10-22",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "9834834a-9cbb-cb43-7f51-3ac608f89fbc",
+   "date": "2026-10-24",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 11.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610260930-class",
+   "date": "2026-10-26",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "465eb2a2-3dfe-e982-1b13-d1175571fd46",
+   "date": "2026-10-27",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610280930-class",
+   "date": "2026-10-28",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "262038ae-1682-741c-aabc-981bdf1f6eab",
+   "date": "2026-10-29",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 4.8,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202610291300-class",
+   "date": "2026-10-29",
+   "activity": "class",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "65c30305-d4a4-6265-6b4d-d745861db8d7",
+   "date": "2026-10-30",
+   "activity": "pilates",
+   "verdict": "green",
+   "minutes_per_30": 1.6,
+   "hard": false
+  },
+  {
+   "workout_id": "4a6f7732-5b3f-ca14-d4c0-7934712533df",
+   "date": "2026-10-31",
+   "activity": "walking",
+   "verdict": "green",
+   "minutes_per_30": 0.0,
+   "hard": false
+  },
+  {
+   "workout_id": "49a0e707-7603-f742-c8d0-902cfce42ecf",
+   "date": "2026-11-01",
+   "activity": "walking",
+   "verdict": "yellow",
+   "minutes_per_30": 1.5,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202611020930-class",
+   "date": "2026-11-02",
+   "activity": "class",
+   "verdict": "red",
+   "minutes_per_30": 3.3,
+   "hard": true
+  },
+  {
+   "workout_id": "85ad264f-b663-3ae7-3cda-f30b967078ca",
+   "date": "2026-11-02",
+   "activity": "walking",
+   "verdict": "red",
+   "minutes_per_30": 12.0,
+   "hard": false
+  },
+  {
+   "workout_id": "2e490948-f25d-311b-8de9-d2df6e850dbb",
+   "date": "2026-11-03",
+   "activity": "pilates",
+   "verdict": "yellow",
+   "minutes_per_30": 11.3,
+   "hard": false
+  },
+  {
+   "workout_id": "cal-hist-202611040930-class",
+   "date": "2026-11-04",
+   "activity": "class",
+   "verdict": "yellow",
+   "minutes_per_30": 0.0,
+   "hard": false
+  }
+ ]
+}

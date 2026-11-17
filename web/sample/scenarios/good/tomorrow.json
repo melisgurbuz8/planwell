@@ -1,0 +1,260 @@
+{
+ "date": "2026-11-05",
+ "generated_at": "2026-11-04T15:30:00-05:00",
+ "day_status": "green",
+ "kind": "preview",
+ "headline": "Tomorrow: looks like a good fit",
+ "note": "Based on today's body data. I'll re-check 1 hour before each session.",
+ "preview_due": "2026-11-04T20:00:00-05:00",
+ "events": [
+  {
+   "event_id": "demo-202611050745-05",
+   "title": "Morning walk",
+   "activity_kind": "exercise",
+   "label": "Walk",
+   "start": "2026-11-05T07:45:00-05:00",
+   "end": "2026-11-05T08:15:00-05:00",
+   "duration_min": 30,
+   "activity": "walking",
+   "check_due": "2026-11-05T06:45:00-05:00",
+   "status": "upcoming",
+   "kind": "preview",
+   "cancel_by": null,
+   "verdict": "green",
+   "confidence": "moderate",
+   "headline": "Early look: looks like a good fit",
+   "reasons": [
+    "On similar days, your walk sessions stayed about as calm as usual (~1 min above 125 bpm)",
+    "HRV is 10% above your usual",
+    "Readiness is a solid 82",
+    "Based on today's body data. I'll re-check with fresh data before it starts"
+   ],
+   "expected": {
+    "minutes_above_threshold": 1,
+    "typical_minutes_above_threshold": 3,
+    "peak_hr": 125
+   },
+   "similar_days": [
+    {
+     "workout_id": "9f46dffe-aef0-a997-bec2-618031af91d3",
+     "date": "2026-08-11",
+     "duration_min": 30,
+     "avg_hr": 113,
+     "peak_hr": 120,
+     "minutes_above_threshold": 0,
+     "readiness": 81,
+     "hrv_delta_pct": 21.6,
+     "similarity": 0.94,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "54902146-7289-c10a-a5d3-8817e6218f15",
+     "date": "2026-10-06",
+     "duration_min": 30,
+     "avg_hr": 111,
+     "peak_hr": 117,
+     "minutes_above_threshold": 0,
+     "readiness": 75,
+     "hrv_delta_pct": 8.5,
+     "similarity": 0.92,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "074dbe69-8e12-f135-6f65-d5c7526713b7",
+     "date": "2026-07-05",
+     "duration_min": 20,
+     "avg_hr": 116,
+     "peak_hr": 130,
+     "minutes_above_threshold": 1,
+     "readiness": 87,
+     "hrv_delta_pct": 15.8,
+     "similarity": 0.9,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "262038ae-1682-741c-aabc-981bdf1f6eab",
+     "date": "2026-10-29",
+     "duration_min": 50,
+     "avg_hr": 118,
+     "peak_hr": 132,
+     "minutes_above_threshold": 8,
+     "readiness": 81,
+     "hrv_delta_pct": 2.4,
+     "similarity": 0.9,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "29077e30-cc1d-dd69-e009-4c3d255c6afc",
+     "date": "2026-06-22",
+     "duration_min": 45,
+     "avg_hr": 114,
+     "peak_hr": 124,
+     "minutes_above_threshold": 0,
+     "readiness": 89,
+     "hrv_delta_pct": 8.8,
+     "similarity": 0.88,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "cf0aabdb-59db-19bd-97fe-3895fc927602",
+     "date": "2026-10-10",
+     "duration_min": 40,
+     "avg_hr": 110,
+     "peak_hr": 120,
+     "minutes_above_threshold": 0,
+     "readiness": 83,
+     "hrv_delta_pct": 17.1,
+     "similarity": 0.88,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "57620af0-e77d-5b74-0c76-8acdc18d6c33",
+     "date": "2026-08-09",
+     "duration_min": 20,
+     "avg_hr": 121,
+     "peak_hr": 132,
+     "minutes_above_threshold": 3,
+     "readiness": 78,
+     "hrv_delta_pct": 18.0,
+     "similarity": 0.88,
+     "activity": "walking"
+    },
+    {
+     "workout_id": "b1372f90-804d-8216-21cd-08ef0c383880",
+     "date": "2026-06-10",
+     "duration_min": 25,
+     "avg_hr": 112,
+     "peak_hr": 126,
+     "minutes_above_threshold": 1,
+     "readiness": 81,
+     "hrv_delta_pct": 13.1,
+     "similarity": 0.87,
+     "activity": "walking"
+    }
+   ],
+   "options": [
+    {
+     "type": "go",
+     "label": "Go as planned",
+     "detail": "Today looks like days when your walk sessions went well.",
+     "new_start": null,
+     "new_end": null
+    },
+    {
+     "type": "buffer",
+     "label": "Add a 15-min rest buffer",
+     "detail": "Rest seated or lying down for 15 minutes before you start, with water nearby.",
+     "new_start": null,
+     "new_end": null
+    }
+   ]
+  },
+  {
+   "event_id": "demo-202611051900-08",
+   "title": "Padel w/ Ana",
+   "activity_kind": "exercise",
+   "label": "Padel",
+   "start": "2026-11-05T19:00:00-05:00",
+   "end": "2026-11-05T20:30:00-05:00",
+   "duration_min": 90,
+   "activity": "padel",
+   "check_due": "2026-11-05T18:00:00-05:00",
+   "status": "upcoming",
+   "kind": "preview",
+   "cancel_by": null,
+   "verdict": "green",
+   "confidence": "learning",
+   "headline": "Early look: looks like a good fit",
+   "reasons": [
+    "Still learning padel — using your similar activities for now",
+    "On similar days, your similar activities spent about 34 min above 125 bpm (usually 30)",
+    "HRV is 10% above your usual",
+    "Based on today's body data. I'll re-check with fresh data before it starts"
+   ],
+   "expected": {
+    "minutes_above_threshold": 34,
+    "typical_minutes_above_threshold": 30,
+    "peak_hr": 141
+   },
+   "similar_days": [
+    {
+     "workout_id": "255126ac-672e-ca37-b6ed-6ca1fd8838df",
+     "date": "2026-10-11",
+     "duration_min": 90,
+     "avg_hr": 118,
+     "peak_hr": 134,
+     "minutes_above_threshold": 34,
+     "readiness": 80,
+     "hrv_delta_pct": 12.3,
+     "similarity": 0.68,
+     "activity": "padel"
+    },
+    {
+     "workout_id": "d6306a1c-7dbb-fb9a-a1fa-72c3aef6601b",
+     "date": "2026-10-02",
+     "duration_min": 75,
+     "avg_hr": 123,
+     "peak_hr": 147,
+     "minutes_above_threshold": 45,
+     "readiness": 73,
+     "hrv_delta_pct": -0.3,
+     "similarity": 0.62,
+     "activity": "padel"
+    },
+    {
+     "workout_id": "f66e8827-5e83-af4d-a597-2fb4d1e4f118",
+     "date": "2026-10-23",
+     "duration_min": 75,
+     "avg_hr": 131,
+     "peak_hr": 150,
+     "minutes_above_threshold": 50,
+     "readiness": 69,
+     "hrv_delta_pct": -33.9,
+     "similarity": 0.55,
+     "activity": "padel"
+    },
+    {
+     "workout_id": "b9e4c707-eaab-ec00-7b1c-7fc48cf4007e",
+     "date": "2026-10-30",
+     "duration_min": 75,
+     "avg_hr": 122,
+     "peak_hr": 138,
+     "minutes_above_threshold": 39,
+     "readiness": 87,
+     "hrv_delta_pct": 15.2,
+     "similarity": 0.4,
+     "activity": "padel"
+    },
+    {
+     "workout_id": "ce7e349e-755d-2124-ff08-5cdd06ddbfbc",
+     "date": "2026-07-31",
+     "duration_min": 55,
+     "avg_hr": 111,
+     "peak_hr": 160,
+     "minutes_above_threshold": 21,
+     "readiness": 74,
+     "hrv_delta_pct": -2.8,
+     "similarity": 0.38,
+     "activity": "pilates"
+    }
+   ],
+   "options": [
+    {
+     "type": "go",
+     "label": "Go as planned",
+     "detail": "Today looks like days when your padel sessions went well.",
+     "new_start": null,
+     "new_end": null
+    },
+    {
+     "type": "buffer",
+     "label": "Add a 15-min rest buffer",
+     "detail": "Rest seated or lying down for 15 minutes before you start, with water nearby.",
+     "new_start": null,
+     "new_end": null
+    }
+   ]
+  }
+ ],
+ "calendar_connected": true
+}

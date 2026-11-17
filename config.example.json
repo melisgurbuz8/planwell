@@ -1,0 +1,108 @@
+{
+  "hr_threshold_bpm": 125,
+  "zones_bpm": [
+    100,
+    115,
+    125,
+    140
+  ],
+  "caution_style": "balanced",
+  "precheck_minutes": 60,
+  "notify": {
+    "macos": true,
+    "ntfy_detail": "summary",
+    "ntfy_server": "https://ntfy.sh"
+  },
+  "google_calendar_ids": [
+    "primary"
+  ],
+  "timezone": "America/New_York",
+  "preview": {
+    "enabled": true,
+    "time": "20:00"
+  },
+  "morning": {
+    "enabled": true,
+    "time": "07:00"
+  },
+  "labeler": {
+    "provider": "none",
+    "model": "claude-haiku-5-5",
+    "vertex_project": "your-gcp-project",
+    "vertex_region": "us-east5"
+  },
+  "activities": {
+    "walking": {
+      "label": "Walk",
+      "kind": "exercise",
+      "keywords": [
+        "walk",
+        "stroll",
+        "hike"
+      ],
+      "oura_types": [
+        "walking",
+        "hiking"
+      ],
+      "traits": {
+        "posture": "standing",
+        "pattern": "steady",
+        "setting": "either"
+      },
+      "late_cancel_hours": null
+    },
+    "pilates": {
+      "label": "Solidcore",
+      "kind": "exercise",
+      "keywords": [
+        "solidcore",
+        "pilates",
+        "reformer"
+      ],
+      "oura_types": [
+        "pilates"
+      ],
+      "traits": {
+        "posture": "mixed",
+        "pattern": "bursty",
+        "setting": "indoor"
+      },
+      "late_cancel_hours": null
+    },
+    "padel": {
+      "label": "Padel",
+      "kind": "exercise",
+      "keywords": [
+        "padel"
+      ],
+      "oura_types": [
+        "padel",
+        "paddle_tennis",
+        "tennis",
+        "racquet_sports"
+      ],
+      "traits": {
+        "posture": "standing",
+        "pattern": "bursty",
+        "setting": "either"
+      },
+      "late_cancel_hours": null
+    },
+    "class": {
+      "label": "Class",
+      "kind": "daily",
+      "keywords": [
+        "class",
+        "lecture",
+        "seminar"
+      ],
+      "oura_types": [],
+      "traits": {
+        "posture": "seated",
+        "pattern": "still",
+        "setting": "indoor"
+      },
+      "late_cancel_hours": null
+    }
+  }
+}

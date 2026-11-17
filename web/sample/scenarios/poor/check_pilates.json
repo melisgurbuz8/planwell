@@ -1,0 +1,170 @@
+{
+ "event_id": "manual-pilates-20261104T2030",
+ "title": "Solidcore (check now)",
+ "activity_kind": "exercise",
+ "label": "Solidcore",
+ "start": "2026-11-04T15:30:00-05:00",
+ "end": "2026-11-04T16:20:00-05:00",
+ "duration_min": 50,
+ "activity": "pilates",
+ "check_due": "2026-11-04T14:30:00-05:00",
+ "status": "checked",
+ "kind": "precheck",
+ "cancel_by": "2026-11-04T03:30:00-05:00",
+ "verdict": "red",
+ "confidence": "good",
+ "headline": "A gentler plan may feel better today",
+ "reasons": [
+  "HRV is 41% below your usual",
+  "Resting heart rate is 8 bpm above your usual",
+  "On similar days, your Solidcore sessions spent about 20 min above 125 bpm (usually 18)",
+  "Readiness is 50 (usually around 75)"
+ ],
+ "expected": {
+  "minutes_above_threshold": 20,
+  "typical_minutes_above_threshold": 18,
+  "peak_hr": 183
+ },
+ "similar_days": [
+  {
+   "workout_id": "6340b838-b1c6-6d13-f94c-56c595128597",
+   "date": "2026-09-29",
+   "duration_min": 55,
+   "avg_hr": 122,
+   "peak_hr": 183,
+   "minutes_above_threshold": 23,
+   "readiness": 64,
+   "hrv_delta_pct": -22.6,
+   "similarity": 0.8,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "c62e5a72-59e1-9dd6-a0d4-6af4d4261846",
+   "date": "2026-06-30",
+   "duration_min": 55,
+   "avg_hr": 133,
+   "peak_hr": 195,
+   "minutes_above_threshold": 23,
+   "readiness": 59,
+   "hrv_delta_pct": -30.5,
+   "similarity": 0.74,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "0d9797fe-033c-94f4-babb-486ab2d3389b",
+   "date": "2026-07-21",
+   "duration_min": 50,
+   "avg_hr": 128,
+   "peak_hr": 195,
+   "minutes_above_threshold": 20,
+   "readiness": 59,
+   "hrv_delta_pct": -31.1,
+   "similarity": 0.64,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "c0c3eb20-f9bb-bef6-9d96-29191b5bb8b8",
+   "date": "2026-09-01",
+   "duration_min": 50,
+   "avg_hr": 121,
+   "peak_hr": 180,
+   "minutes_above_threshold": 20,
+   "readiness": 59,
+   "hrv_delta_pct": -12.4,
+   "similarity": 0.61,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "8922f8f0-04a5-2b94-6a9e-48815fcca4a8",
+   "date": "2026-07-20",
+   "duration_min": 55,
+   "avg_hr": 126,
+   "peak_hr": 193,
+   "minutes_above_threshold": 23,
+   "readiness": 66,
+   "hrv_delta_pct": -27.1,
+   "similarity": 0.59,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "8a251bdf-85a3-35ab-4e78-a5881b5c2448",
+   "date": "2026-05-19",
+   "duration_min": 55,
+   "avg_hr": 118,
+   "peak_hr": 178,
+   "minutes_above_threshold": 21,
+   "readiness": 67,
+   "hrv_delta_pct": -4.3,
+   "similarity": 0.59,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "34a6492f-c489-0c4a-3d5f-1c64e16f5062",
+   "date": "2026-10-20",
+   "duration_min": 55,
+   "avg_hr": 110,
+   "peak_hr": 160,
+   "minutes_above_threshold": 20,
+   "readiness": 63,
+   "hrv_delta_pct": -22.3,
+   "similarity": 0.57,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "2e490948-f25d-311b-8de9-d2df6e850dbb",
+   "date": "2026-11-03",
+   "duration_min": 45,
+   "avg_hr": 120,
+   "peak_hr": 180,
+   "minutes_above_threshold": 17,
+   "readiness": 68,
+   "hrv_delta_pct": -15.6,
+   "similarity": 0.55,
+   "activity": "pilates"
+  }
+ ],
+ "options": [
+  {
+   "type": "modify",
+   "label": "Plan floor modifications",
+   "detail": "Ask your coach for floor-based options and fewer standing transitions, and take a short break between blocks whenever you need one.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "buffer",
+   "label": "Add a 15-min rest buffer",
+   "detail": "Rest seated or lying down for 15 minutes before you start, with water nearby.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "shorten",
+   "label": "Shorten to 20 min",
+   "detail": "On similar days, the first 20 min usually had only about 6 min above 125 bpm.",
+   "new_start": "2026-11-04T15:30:00-05:00",
+   "new_end": "2026-11-04T15:50:00-05:00"
+  },
+  {
+   "type": "swap",
+   "label": "Swap to a floor-only mat session",
+   "detail": "A mat session at home, staying on the floor with fewer standing transitions, is usually gentler on heart rate than a full Solidcore class.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "rebook",
+   "label": "Book a later class",
+   "detail": "A later Solidcore class may suit, if one fits your day — it gives your body more time to settle.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "go",
+   "label": "Go as planned",
+   "detail": "If you go, it's okay to pause or stop early — adjusting is always a good call.",
+   "new_start": null,
+   "new_end": null
+  }
+ ]
+}

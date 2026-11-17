@@ -1,0 +1,13 @@
+secrets/
+data/
+dist/
+_to_delete/
+__pycache__/
+*.pyc
+*.db
+*.db-*
+*.log
+*.tgz
+.env
+.DS_Store
+config.json

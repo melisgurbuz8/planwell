@@ -1,0 +1,141 @@
+{
+ "event_id": "manual-pilates-20261104T2030",
+ "title": "Solidcore (check now)",
+ "activity_kind": "exercise",
+ "label": "Solidcore",
+ "start": "2026-11-04T15:30:00-05:00",
+ "end": "2026-11-04T16:20:00-05:00",
+ "duration_min": 50,
+ "activity": "pilates",
+ "check_due": "2026-11-04T14:30:00-05:00",
+ "status": "checked",
+ "kind": "precheck",
+ "cancel_by": "2026-11-04T03:30:00-05:00",
+ "verdict": "green",
+ "confidence": "good",
+ "headline": "Looks like a good fit today",
+ "reasons": [
+  "On similar days, your Solidcore sessions spent about 20 min above 125 bpm (usually 18)",
+  "You slept 6h 54m",
+  "Resting heart rate is 3 bpm above your usual"
+ ],
+ "expected": {
+  "minutes_above_threshold": 20,
+  "typical_minutes_above_threshold": 18,
+  "peak_hr": 173
+ },
+ "similar_days": [
+  {
+   "workout_id": "c5e6e917-dc16-338e-d6f7-1590727cff3d",
+   "date": "2026-10-21",
+   "duration_min": 50,
+   "avg_hr": 114,
+   "peak_hr": 168,
+   "minutes_above_threshold": 20,
+   "readiness": 68,
+   "hrv_delta_pct": -24.3,
+   "similarity": 0.91,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "2e490948-f25d-311b-8de9-d2df6e850dbb",
+   "date": "2026-11-03",
+   "duration_min": 45,
+   "avg_hr": 120,
+   "peak_hr": 180,
+   "minutes_above_threshold": 17,
+   "readiness": 68,
+   "hrv_delta_pct": -15.6,
+   "similarity": 0.91,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "ce7e349e-755d-2124-ff08-5cdd06ddbfbc",
+   "date": "2026-07-31",
+   "duration_min": 55,
+   "avg_hr": 111,
+   "peak_hr": 160,
+   "minutes_above_threshold": 21,
+   "readiness": 74,
+   "hrv_delta_pct": -2.8,
+   "similarity": 0.9,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "5e3b9cba-12fb-e5f6-6b4b-964c33e72a7c",
+   "date": "2026-07-14",
+   "duration_min": 45,
+   "avg_hr": 120,
+   "peak_hr": 179,
+   "minutes_above_threshold": 18,
+   "readiness": 73,
+   "hrv_delta_pct": -5.5,
+   "similarity": 0.89,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "c514db78-1452-80aa-2997-b31987cb8329",
+   "date": "2026-05-22",
+   "duration_min": 50,
+   "avg_hr": 113,
+   "peak_hr": 162,
+   "minutes_above_threshold": 20,
+   "readiness": 68,
+   "hrv_delta_pct": -22.2,
+   "similarity": 0.89,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "8a251bdf-85a3-35ab-4e78-a5881b5c2448",
+   "date": "2026-05-19",
+   "duration_min": 55,
+   "avg_hr": 118,
+   "peak_hr": 178,
+   "minutes_above_threshold": 21,
+   "readiness": 67,
+   "hrv_delta_pct": -4.3,
+   "similarity": 0.88,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "5c72f206-a54c-6a8c-58ae-6f8154c83025",
+   "date": "2026-05-26",
+   "duration_min": 55,
+   "avg_hr": 131,
+   "peak_hr": 195,
+   "minutes_above_threshold": 23,
+   "readiness": 71,
+   "hrv_delta_pct": -26.8,
+   "similarity": 0.87,
+   "activity": "pilates"
+  },
+  {
+   "workout_id": "34a6492f-c489-0c4a-3d5f-1c64e16f5062",
+   "date": "2026-10-20",
+   "duration_min": 55,
+   "avg_hr": 110,
+   "peak_hr": 160,
+   "minutes_above_threshold": 20,
+   "readiness": 63,
+   "hrv_delta_pct": -22.3,
+   "similarity": 0.87,
+   "activity": "pilates"
+  }
+ ],
+ "options": [
+  {
+   "type": "go",
+   "label": "Go as planned",
+   "detail": "Today looks like days when your Solidcore sessions went well.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "buffer",
+   "label": "Add a 15-min rest buffer",
+   "detail": "Rest seated or lying down for 15 minutes before you start, with water nearby.",
+   "new_start": null,
+   "new_end": null
+  }
+ ]
+}

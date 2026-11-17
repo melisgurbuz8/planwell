@@ -1,0 +1,156 @@
+{
+ "event_id": "manual-walking-20261104T2030",
+ "title": "Walk (check now)",
+ "activity_kind": "exercise",
+ "label": "Walk",
+ "start": "2026-11-04T15:30:00-05:00",
+ "end": "2026-11-04T16:00:00-05:00",
+ "duration_min": 30,
+ "activity": "walking",
+ "check_due": "2026-11-04T14:30:00-05:00",
+ "status": "checked",
+ "kind": "precheck",
+ "cancel_by": null,
+ "verdict": "red",
+ "confidence": "good",
+ "headline": "A gentler plan may feel better today",
+ "reasons": [
+  "HRV is 41% below your usual",
+  "Resting heart rate is 8 bpm above your usual",
+  "On similar days, your walk sessions spent about 25 min above 125 bpm (usually 3)",
+  "Readiness is 50 (usually around 75)"
+ ],
+ "expected": {
+  "minutes_above_threshold": 25,
+  "typical_minutes_above_threshold": 3,
+  "peak_hr": 135
+ },
+ "similar_days": [
+  {
+   "workout_id": "0bf2b809-820b-d17c-93a6-f289eb021b34",
+   "date": "2026-05-10",
+   "duration_min": 35,
+   "avg_hr": 130,
+   "peak_hr": 138,
+   "minutes_above_threshold": 32,
+   "readiness": 47,
+   "hrv_delta_pct": null,
+   "similarity": 0.92,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "f89a35da-8d8d-8c94-a753-2aa6a9d092ff",
+   "date": "2026-05-31",
+   "duration_min": 25,
+   "avg_hr": 129,
+   "peak_hr": 137,
+   "minutes_above_threshold": 22,
+   "readiness": 53,
+   "hrv_delta_pct": -32.3,
+   "similarity": 0.91,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "590dd590-eebb-37a1-0fbd-06fb5c6ce210",
+   "date": "2026-07-18",
+   "duration_min": 30,
+   "avg_hr": 128,
+   "peak_hr": 134,
+   "minutes_above_threshold": 27,
+   "readiness": 50,
+   "hrv_delta_pct": -47.2,
+   "similarity": 0.85,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "4aec690c-73d3-87c0-e7e5-72008558fcfe",
+   "date": "2026-08-27",
+   "duration_min": 20,
+   "avg_hr": 129,
+   "peak_hr": 135,
+   "minutes_above_threshold": 19,
+   "readiness": 54,
+   "hrv_delta_pct": -40.9,
+   "similarity": 0.84,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "26aa9130-6c5f-39db-535c-8aff0e11674e",
+   "date": "2026-06-30",
+   "duration_min": 30,
+   "avg_hr": 134,
+   "peak_hr": 140,
+   "minutes_above_threshold": 30,
+   "readiness": 59,
+   "hrv_delta_pct": -30.5,
+   "similarity": 0.77,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "85ad264f-b663-3ae7-3cda-f30b967078ca",
+   "date": "2026-11-02",
+   "duration_min": 30,
+   "avg_hr": 123,
+   "peak_hr": 131,
+   "minutes_above_threshold": 12,
+   "readiness": 60,
+   "hrv_delta_pct": -19.6,
+   "similarity": 0.75,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "9a6bd0d0-b35e-f2b2-bf3d-3b98565660ba",
+   "date": "2026-07-27",
+   "duration_min": 20,
+   "avg_hr": 128,
+   "peak_hr": 136,
+   "minutes_above_threshold": 16,
+   "readiness": 61,
+   "hrv_delta_pct": -16.6,
+   "similarity": 0.72,
+   "activity": "walking"
+  },
+  {
+   "workout_id": "ee114a28-faf5-8d00-0447-e39e196049c9",
+   "date": "2026-05-13",
+   "duration_min": 30,
+   "avg_hr": 116,
+   "peak_hr": 126,
+   "minutes_above_threshold": 1,
+   "readiness": 59,
+   "hrv_delta_pct": -8.4,
+   "similarity": 0.71,
+   "activity": "walking"
+  }
+ ],
+ "options": [
+  {
+   "type": "buffer",
+   "label": "Add a 15-min rest buffer",
+   "detail": "Rest seated or lying down for 15 minutes before you start, with water nearby.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "shorten",
+   "label": "Shorten to 15 min",
+   "detail": "A shorter session leaves room to stop while you still feel okay.",
+   "new_start": "2026-11-04T15:30:00-05:00",
+   "new_end": "2026-11-04T15:45:00-05:00"
+  },
+  {
+   "type": "swap",
+   "label": "Swap to a shorter, flat or indoor walk",
+   "detail": "Flat ground and a cool indoor space keep the effort steadier; slow laps at home count too.",
+   "new_start": null,
+   "new_end": null
+  },
+  {
+   "type": "go",
+   "label": "Go as planned",
+   "detail": "If you go, it's okay to pause or stop early — adjusting is always a good call.",
+   "new_start": null,
+   "new_end": null
+  }
+ ]
+}
