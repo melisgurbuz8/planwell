@@ -118,5 +118,3 @@ PlanWell on the Mac. `python3 -m planwell.notify_setup --test` sends a test.
 `web/` UI (plain HTML/CSS/JS, inline SVG charts; `?demo=1` uses sample data) · `scripts/` demo builds and
 background-job setup · `tests/` unit tests · `SPEC.md` build spec · `docs/screens/` screenshots
 
-## License
-MIT. See [LICENSE](LICENSE).
