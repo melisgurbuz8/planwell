@@ -10,13 +10,13 @@ swap to a gentler version, move earlier, or add a rest buffer.
 **[▶ Try the live demo](https://melisgurbuz8.github.io/planwell/)**: no install. It runs on generated mock data,
 and you can switch between a good, meh and rough day.
 
-> ⚕️ **Not medical advice.** PlanWell is a personal project. Thresholds are my own settings, and it only
+> ⚕️ PlanWell is a personal project. Thresholds are my own settings, and it only
 > compares me with my own history. It suggests; I decide.
 
 ![Today screen: body state against my usual, and checks for the next sessions](docs/screens/today-desktop-light.png)
 
 ## Why I built it
-As someone living with POTS, I have real limits on what I can do on a given day, and the same
+As someone living with POTS, I have limits on what I can do on a given day, and the same
 workout can feel very different from one day to the next. I built PlanWell for myself, to make
 scheduling my workouts easier in daily life.
 
