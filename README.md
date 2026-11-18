@@ -1,6 +1,6 @@
 # PlanWell
 
-**A personal, accessibility-first pre-activity check for living with POTS.**
+**A personal, accessibility-first check before each workout, built from my own wearable data.**
 
 About an hour before a walk, Solidcore class or padel game in my Google Calendar, PlanWell compares
 today's body state from my Oura ring with my own past sessions on similar days, then gives a calm
@@ -16,9 +16,15 @@ and you can switch between a good, meh and rough day.
 ![Today screen: body state against my usual, and checks for the next sessions](docs/screens/today-desktop-light.png)
 
 ## Why I built it
-With POTS, the same walk can be easy one day and leave my heart rate racing the next. Wearables
-show scores like readiness, but not *"how will my 5 pm class go today?"* PlanWell answers that one
-question, using my own heart-rate history from past sessions instead of population norms.
+As someone living with POTS, I have real limits on what I can do on a given day, and the same
+workout can feel very different from one day to the next. I built PlanWell for myself, to make
+scheduling my workouts easier in daily life.
+
+I wore a WHOOP for two years and have used an Oura ring for six months. Both gave me plenty of data
+about my past and present, but neither told me what to do with it going forward: scores like
+readiness, but no answer to *"how will my 5 pm class go today?"* So I decided to build that myself.
+PlanWell answers that one question, using my own heart-rate history from past sessions instead of
+population norms.
 
 It grew out of **Rejuva**, a team PRD (wearable + calendar planning for invisible and fluctuating
 conditions). I narrowed it to the one feature I need every day, then designed, built and tested it end to end.

@@ -1,6 +1,6 @@
 # PlanWell — build spec (shared contract for all agents)
 
-PlanWell is a personal, accessibility-first **pre-activity watcher** for someone with POTS.
+PlanWell is a personal, accessibility-first **pre-activity watcher** for someone whose daily activity limits change from day to day.
 The user's only regular activities are **walking** and **pilates**, and every activity is in
 Google Calendar. About 60 minutes before a calendar walk/pilates event, PlanWell compares
 today's body state (from Oura) to the user's own past sessions on similar days and gives a
