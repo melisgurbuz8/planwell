@@ -7,7 +7,7 @@ today's body state from my Oura ring with my own past sessions on similar days, 
 green / yellow / red check with plain-language reasons and gentle options: go as planned, shorten,
 swap to a gentler version, move earlier, or add a rest buffer.
 
-**[▶ Try the live demo](https://melisgurbuz-2025.github.io/planwell/)**: no install. It runs on generated mock data,
+**[▶ Try the live demo](https://melisgurbuz8.github.io/planwell/)**: no install. It runs on generated mock data,
 and you can switch between a good, meh and rough day.
 
 > ⚕️ **Not medical advice.** PlanWell is a personal project. Thresholds are my own settings, and it only
